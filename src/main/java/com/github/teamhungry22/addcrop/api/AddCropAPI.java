@@ -11,10 +11,20 @@ public class AddCropAPI {
         throw new AddCropNotFoundException();
     }
 
+    /**
+     * 아이템이 AddCrop 아이템인지 확인합니다.
+     * @param obj 확인할 아이템
+     * @return AddCrop 아이템 여부
+     */
     public boolean isAddCropItem(Object obj) {
         throw new AddCropNotFoundException();
     }
 
+    /**
+     * 아이템이 AddCrop 아이템인지 확인합니다.
+     * @param obj 확인할 아이템
+     * @return AddCrop 아이템 여부
+     */
     public Optional<AddCropItem> getAddCropItem(Object obj) {
         throw new AddCropNotFoundException();
     }
